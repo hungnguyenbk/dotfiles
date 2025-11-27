@@ -1,0 +1,41 @@
+#alias for openstack
+alias ops="openstack "
+alias project="openstack project"
+alias volume="openstack volume"
+alias backup-vol="openstack volume backup"
+alias snapshot="openstack volume snapshot"
+alias flavor="openstack flavor"
+alias image="openstack image"
+alias server="openstack server"
+alias network="openstack network"
+alias nqp="openstack network qos policy"
+alias nqr="openstack network qos rule"
+alias subnet="openstack subnet"
+alias port="openstack port"
+alias security="openstack security group"
+alias floating="openstack floating ip"
+alias router-os="openstack router"
+alias lb="openstack loadbalancer "
+alias lb-listener="openstack loadbalancer listener "
+alias lb-pool="openstack loadbalancer pool "
+alias lb-member="openstack loadbalancer member "
+
+alias cluster="openstack cluster "
+alias profile="openstack cluster profile "
+alias policy="openstack cluster policy "
+
+#alias for db-openstack
+alias db="openstack database "
+alias db-server="openstack database instance "
+alias db-config="openstack database configuration "
+alias db-log="openstack database log "
+alias db-user="openstack database user "
+alias db-quota="openstack database quota "
+alias db-flavor="openstack database flavor "
+alias db-backup="openstack database backup "
+
+#alias for kubectl
+alias k=kubectl
+alias kexce="kubectl exec -ti -n"
+alias klogs="kubectl logs -f -n"
+alias kname="kubectl get pods --no-headers -o custom-columns=":metadata.name" -n	"
