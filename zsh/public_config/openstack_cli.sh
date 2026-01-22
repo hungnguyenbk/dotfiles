@@ -33,17 +33,3 @@ alias db-user="openstack database user "
 alias db-quota="openstack database quota "
 alias db-flavor="openstack database flavor "
 alias db-backup="openstack database backup "
-
-#alias for kubectl
-alias k=kubectl
-alias kexce="kubectl exec -ti -n"
-alias klogs="kubectl logs -f -n"
-alias kname="kubectl get pods --no-headers -o custom-columns=":metadata.name" -n	"
-
-#alias for teleport
-alias csp-prod-next="tsh kube login csp-clus-prod"
-alias tshPF-prod="tsh kube login platform-cluster"
-alias tshkube-prod="tsh kube login eco01-ctr-prod-cluster"
-
-alias tshPF="tsh kube login platform-dev-cluster"
-alias tshkube="tsh kube login csp-dev-cluster"
